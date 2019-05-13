@@ -1,0 +1,180 @@
+
+\documentclass[
+	oneside,
+	12pt,				% tamanho da fonte
+	%%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	%%twoside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	article
+	]{abntex2}
+
+% ---
+% Pacotes fundamentais 
+% ---
+
+\usepackage{times}				% Usa a fonte Time News Roman
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{setspace}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf[]{}
+\rfoot{\thepage}
+
+
+
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+\preambulo{UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI - UFVJM
+	PROGRAMA DE PÓS-GRADUAÇÃO STRICTO SENSU EM EDUCAÇÃO}
+\titulo{Modelo de Ambiente Virtual de Aprendizado suportado por CS}
+\local{Brasil}
+\data{2019}
+\instituicao{%
+  Universidade do Brasil -- UBr
+  \par
+  Faculdade de Arquitetura da Informação
+  \par
+  Programa de Pós-Graduação}% ---
+
+\renewcommand{\imprimircapa}{%
+	\begin{capa}%
+		\center	
+		{\ABNTEXchapterfont\imprimirpreambulo}
+		\vfill
+		\begin{center}
+			\ABNTEXchapterfont\bfseries\imprimirtitulo
+		\end{center}
+		\vspace*{3cm}
+		\begin{flushright}
+		Linha de pesquisa: EDUCAÇÃO E TECNOLOGIAS APLICADAS EM INSTITUIÇÕES
+		EDUCACIONAIS.
+		\linebreak
+		Possível Orientadora: Profa. Dra. Luciana Pereira de Assis
+		\end{flushright}
+		\vfill
+		\imprimirlocal 
+		\linebreak		
+		\imprimirdata
+		\vspace*{1cm}
+	\end{capa}
+}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Configurações de margem do projeto
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+
+
+\begin{document}
+ 
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+%% Imprimir capa via abntex
+\imprimircapa
+
+\textual
+
+\OnehalfSpacing %%set espaçamento entre linhas de 1cm
+\begin{center}
+	\ABNTEXchapterfont\bfseries RESUMO
+\end{center}
+
+Este artigo descreve o uso da Consciência Situacional (CS) no suporte à Ambientes Virtuais de Aprendizagem (AVA’s). Mineração de Dados Educacionais (MDE) buscam o desenvolvimento de métodos para processamento
+de dados gerados a partir de ambientes educacionais, no entanto AVA’s tendem a resultar em conjuntos de dados extremamente dinâmicos, requerendo assim ferramentas que se adaptem as variações decorrentes de cada interação com
+o usuário. A CS usa Modelos Mentais para assimilar sistematicamente estados em determinadas situações, a visão consciente sobre o ambiente permite a identificação de cada configuração dos dados e qual melhor ação a ser tomada
+podendo delimitar situações nos quais os métodos da MDE melhor se aplicam.
+\linebreak\linebreak
+\textbf{Palavras-chave:} Consciência da Situação. Mineração de Dados Educaionais. Educação.
+\linebreak\linebreak
+\textbf{TÍTULO:} Modelo de Ambiente Virtual de Aprendizado suportado por CS.
+
+
+\setSpacing{1.5} %%set espaçamento entre linhas de 1.5cm
+\section{Introdução}
+
+A educação a distância é uma modalidade de ensino que vem se destacando no Brasil,
+pois permite que a distância entre a escola e a comunidade seja reduzida. Segundo Preti (2010),
+a Educação a Distância (EaD) trata-se de uma alternativa pedagógica que abrange as
+tecnologias e possibilita que diversos estudantes possam ter acesso a educação, mesmo em
+lugares em que a educação regular não alcança, de forma a acontecer um rompimento do
+conceito de distância. Para Moore e Kearsley (2007) a ideia principal do ensino a distância é
+bem simples: estudantes e professores estão em locais diferentes durante todo ou grande parte
+do tempo em que aprendem e ensinam. Estando em locais distintos, eles dependem de algum
+tipo de tecnologia para transmitir informações e lhes proporcionar um meio para interagir.
+O Instituto Federal de Ciência e Tecnologia do Norte de Minas Gerais (IFNMG) fundou
+a diretoria de ensino a distância no ano de 2013, com o objetivo de: integrar a formação cidadã
+à formação profissional de modo a romper as barreiras geográficas e temporais, contribuir para
+1a melhoria da educação básica pública, de formação inicial e continuada de professores e
+técnicos administrativos da educação, favorecer a inclusão digital e ampliar as ofertas de
+educação profissional de qualidade (BRASIL, 2013).
+Conforme apresentado pela Associação Brasileira de Educação a Distância (ABED), da
+mesma forma que vem crescendo o número de estudantes na EaD, vem aumentando o número
+de evasão dos estudantes em todas as instituições de ensino sendo algo de grande preocupação,
+tanto para os governos como para as instituições de ensino, que têm como uma das metas
+atenuar os índices de evasão dos cursos por parte dos estudantes. Um dos desafios relacionados
+com a educação é entender qual o perfil desses estudantes evasores ou ainda prever uma
+possível evasão antecipadamente.
+Algoritmos de aprendizagem supervisionada têm sido empregados para tratar vários
+problemas em EaD, como detecção de estilos de aprendizagem (DORÇA et al., 2012), predição
+da nota final do aluno (FIGUEIRA, 2016) e predição de evasão (DA SILVA, 2014). Estes
+algoritmos possuem uma etapa de treinamento utilizando dados históricos disponíveis em um
+AVA para a construção de modelos preditivos, que podem ser usados posteriormente para
+aplicação prática.
+Uma etapa de pré-processsamento do conjunto de dados utilizados por algoritmos de
+aprendizagem é a seleção de variáveis (ou seleção de atributos), que visa eliminar variáveis
+redundantes ou irrelevantes levando ao aumento do desempenho dos modelos preditivos
+induzidos por estes algoritmos. Sendo assim, com o presente trabalho, pretende-se estudar
+mecanismos de seleção de variáveis para melhorar o desempenho de técnicas de predição de
+evasão utilizando dados de um AVA do IFNMG.
+
+
+
+\section{Considerações finais}
+
+"Sed ut \citeonline{Ahmad_Shamsuddin_2010} perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?""Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{library}
+
+\end{document}
