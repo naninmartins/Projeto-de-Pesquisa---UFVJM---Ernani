@@ -5,13 +5,52 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Ahmad e Shamsuddin 2010]{Ahmad_Shamsuddin_2010}
-\abntrefinfo{Ahmad e Shamsuddin}{AHMAD; SHAMSUDDIN}{2010}
-{AHMAD, N. B.~H.; SHAMSUDDIN, S.~M. {A comparative analysis of mining
-  techniques for automatic detection of student's learning style}. In:
-  \emph{2010 10th International Conference on Intelligent Systems Design and
-  Applications}. [s.n.], 2010. p. 877--882.
-ISBN 978-1-4244-8134-7. Dispon{\'\i}vel em:
-  \url{http://ieeexplore.ieee.org/document/5687150/}.}
+\bibitem[Endsley e Jones 2012]{Endsley2012}
+\abntrefinfo{Endsley e Jones}{ENDSLEY; JONES}{2012}
+{ENDSLEY, M.~R.; JONES, D.~G. \emph{{Designing for Situation Awareness: An
+  Approach to User-Centered Design}}. Second edi. [S.l.]: CRC Press, 2012.
+ISBN 978-1-4200-6355 (pbk).}
+
+\bibitem[Falci et al. 2018]{Falci_et_al_2018}
+\abntrefinfo{Falci et al.}{FALCI et al.}{2018}
+{FALCI, S.~H. et al. {Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem
+  Utilizando L{\'{o}}gica Fuzzy e Categoriza{\c{c}}{\~{a}}o de Refor{\c{c}}os}.
+  In:  . [S.l.: s.n.], 2018.}
+
+\bibitem[Fernandes 2017]{Fernandes2017}
+\abntrefinfo{Fernandes}{FERNANDES}{2017}
+{FERNANDES, W.~L. {APLICA{\c{C}}{\~{A}}O DO ALGORITMO DE
+  CLASSIFICA{\c{C}}{\~{A}}O ASSOCIATIVA (CBA) EM BASES EDUCACIONAIS PARA
+  PREDI{\c{C}}{\~{A}}O DE DESEMPENHO}. 2017.}
+
+\bibitem[Martins 2018]{Martins2018}
+\abntrefinfo{Martins}{MARTINS}{2018}
+{MARTINS, E. \emph{{Modelo de Apoio ao Ensino em Ambientes Virtuais de
+  Aprendizagem Sustentado por Consci{\^{e}}ncia Situacional}}. Diamantina-MG:
+  [s.n.], 2018. 64~p.
+Dispon{\'\i}vel em:
+  \url{https://github.com/naninmartins/TCC-Modelo-de-AVA-com-CS-e-MDE-LATEX}.}
+
+\bibitem[Rabelo et al. 2017]{Rabelo_et_al2017}
+\abntrefinfo{Rabelo et al.}{RABELO et al.}{2017}
+{RABELO, H. et al. {Utiliza{\c{c}}{\~{a}}o de t{\'{e}}cnicas de
+  minera{\c{c}}{\~{a}}o de dados educacionais para predi{\c{c}}{\~{a}}o de
+  desempenho de alunos de EaD em ambientes virtuais de aprendizagem}. In:  .
+  [s.n.], 2017. p.~1527.
+ISSN 2316-6533. Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7684}.}
+
+\bibitem[Romero e Ventura 2013]{Romero_Ventura_2013}
+\abntrefinfo{Romero e Ventura}{ROMERO; VENTURA}{2013}
+{ROMERO, C.; VENTURA, S. {Data mining in education}.
+\emph{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  v.~3, n.~1, p. 12--27, 2013.
+ISSN 19424787.}
+
+\bibitem[Roy, Breton e Rousseau 2007]{Roy_Breton_Rousseau_2007}
+\abntrefinfo{Roy, Breton e Rousseau}{ROY; BRETON; ROUSSEAU}{2007}
+{ROY, J.; BRETON, R.; ROUSSEAU, R. \emph{{Concepts, Models, and Tools for
+  Information Fusion}}. [S.l.]: Artech House , INC, 2007. 155~p.
+ISBN 978-1-59693-081-0.}
 
 \end{thebibliography}

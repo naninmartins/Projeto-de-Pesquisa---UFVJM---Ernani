@@ -33,22 +33,16 @@
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 
-\preambulo{UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI - UFVJM
+\instituicao{UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI - UFVJM
 	PROGRAMA DE PÓS-GRADUAÇÃO STRICTO SENSU EM EDUCAÇÃO}
 \titulo{Modelo de Ambiente Virtual de Aprendizado suportado por CS}
 \local{Brasil}
 \data{2019}
-\instituicao{%
-  Universidade do Brasil -- UBr
-  \par
-  Faculdade de Arquitetura da Informação
-  \par
-  Programa de Pós-Graduação}% ---
 
 \renewcommand{\imprimircapa}{%
 	\begin{capa}%
 		\center	
-		{\ABNTEXchapterfont\imprimirpreambulo}
+		{\ABNTEXchapterfont\imprimirinstituicao}
 		\vfill
 		\begin{center}
 			\ABNTEXchapterfont\bfseries\imprimirtitulo
@@ -115,61 +109,42 @@
 	\ABNTEXchapterfont\bfseries RESUMO
 \end{center}
 
-Este artigo descreve o uso da Consciência Situacional (CS) no suporte à Ambientes Virtuais de Aprendizagem (AVA’s). Mineração de Dados Educacionais (MDE) buscam o desenvolvimento de métodos para processamento
-de dados gerados a partir de ambientes educacionais, no entanto AVA’s tendem a resultar em conjuntos de dados extremamente dinâmicos, requerendo assim ferramentas que se adaptem as variações decorrentes de cada interação com
-o usuário. A CS usa Modelos Mentais para assimilar sistematicamente estados em determinadas situações, a visão consciente sobre o ambiente permite a identificação de cada configuração dos dados e qual melhor ação a ser tomada
-podendo delimitar situações nos quais os métodos da MDE melhor se aplicam.
+Consciência Situacional (CS) é amplamente utilizada na correta compreensão do ambiente e da situação, sendo considerada principal precursora do processo de Tomada de Decisão, portanto, considerando seu poder de compreensão do universo, a CS tem o potencial de ser aplicada em Ambientes Virtuais de Aprendizagem (AVA’s).
+O Ambiente Educacional compõe-se de um espaço extremamente dinâmico, por tanto muitas vezes as inúmeras situações presentes em um estado podem dificultar o processo de tomada de decisão. Atualmente é notório o crescimento de pesquisas que baseiam-se no uso de Mineração de Dados Educacionais (MDE) afim de extrair conhecimento dos dados de AVA's, entretanto somente a MDE por vezes não é suficiente para lidar com a variedade de dados e eventos gerados da interação de cada usuário com o Ambiente Educacional. \citeonline{Martins2018} desenvolve um Modelo baseado em CS e Mineração de Dados Educacionais (MDE) de suporte a aprendizagem em AVA's, o modelo propõe a expansão da MDE através da CS utilizando-se de modelos mentais, indicando fortes benefícios ao ambiente escolar, entretanto o autor não aplica o modelo ainda no ambiente. Este projeto de pesquisa objetiva-se na expansão do modelo, o uso de linguagens lógicas para a construção de regras decisórias e modelos mentais demonstra-se viável para a aplicabilidade do problema, é necessário também a construção e teste do mesmo, assim a elaboração de um protótipo de software para aplicabilidade do modelo são objetivos deste projeto de pesquisa. Espera-se que este estudo permita a aplicabilidade do modelo de CS no âmbito educacional, procurando assim minimizar a sobrecarga de professores e tutores dentro do ambiente educacional, espera-se também observar uma nova perspectiva da MDE, visando atingir um níveis de CS em situações nas quais tais técnicas e procedimentos apresentam uma melhor performance. 
 \linebreak\linebreak
-\textbf{Palavras-chave:} Consciência da Situação. Mineração de Dados Educaionais. Educação.
+\textbf{Palavras-chave:} Consciência da Situação. Ambientes Virtuais de Aprendizagem. Mineração de Dados Educacionais. 
 \linebreak\linebreak
 \textbf{TÍTULO:} Modelo de Ambiente Virtual de Aprendizado suportado por CS.
 
 
-\setSpacing{1.5} %%set espaçamento entre linhas de 1.5cm
+%\setSpacing{1.5} %%set espaçamento entre linhas de 1.5cm
 \section{Introdução}
 
-A educação a distância é uma modalidade de ensino que vem se destacando no Brasil,
-pois permite que a distância entre a escola e a comunidade seja reduzida. Segundo Preti (2010),
-a Educação a Distância (EaD) trata-se de uma alternativa pedagógica que abrange as
-tecnologias e possibilita que diversos estudantes possam ter acesso a educação, mesmo em
-lugares em que a educação regular não alcança, de forma a acontecer um rompimento do
-conceito de distância. Para Moore e Kearsley (2007) a ideia principal do ensino a distância é
-bem simples: estudantes e professores estão em locais diferentes durante todo ou grande parte
-do tempo em que aprendem e ensinam. Estando em locais distintos, eles dependem de algum
-tipo de tecnologia para transmitir informações e lhes proporcionar um meio para interagir.
-O Instituto Federal de Ciência e Tecnologia do Norte de Minas Gerais (IFNMG) fundou
-a diretoria de ensino a distância no ano de 2013, com o objetivo de: integrar a formação cidadã
-à formação profissional de modo a romper as barreiras geográficas e temporais, contribuir para
-1a melhoria da educação básica pública, de formação inicial e continuada de professores e
-técnicos administrativos da educação, favorecer a inclusão digital e ampliar as ofertas de
-educação profissional de qualidade (BRASIL, 2013).
-Conforme apresentado pela Associação Brasileira de Educação a Distância (ABED), da
-mesma forma que vem crescendo o número de estudantes na EaD, vem aumentando o número
-de evasão dos estudantes em todas as instituições de ensino sendo algo de grande preocupação,
-tanto para os governos como para as instituições de ensino, que têm como uma das metas
-atenuar os índices de evasão dos cursos por parte dos estudantes. Um dos desafios relacionados
-com a educação é entender qual o perfil desses estudantes evasores ou ainda prever uma
-possível evasão antecipadamente.
-Algoritmos de aprendizagem supervisionada têm sido empregados para tratar vários
-problemas em EaD, como detecção de estilos de aprendizagem (DORÇA et al., 2012), predição
-da nota final do aluno (FIGUEIRA, 2016) e predição de evasão (DA SILVA, 2014). Estes
-algoritmos possuem uma etapa de treinamento utilizando dados históricos disponíveis em um
-AVA para a construção de modelos preditivos, que podem ser usados posteriormente para
-aplicação prática.
-Uma etapa de pré-processsamento do conjunto de dados utilizados por algoritmos de
-aprendizagem é a seleção de variáveis (ou seleção de atributos), que visa eliminar variáveis
-redundantes ou irrelevantes levando ao aumento do desempenho dos modelos preditivos
-induzidos por estes algoritmos. Sendo assim, com o presente trabalho, pretende-se estudar
-mecanismos de seleção de variáveis para melhorar o desempenho de técnicas de predição de
-evasão utilizando dados de um AVA do IFNMG.
+Modalidades de ensino por Educação à Distância (EaD) caracterizam práticas pedagógicas diferenciadas no processo de ensino e aprendizagem, de forma que tal modalidade utiliza-se das tecnologias de informação e comunicação visando facilitar a aquisição do conhecimento \cite{Rabelo_et_al2017}.
+
+Ambientes Virtuais de Aprendizagem (AVA’s) reproduzem modelagens e instruções que possam inferir o estado do aprendizado de cada estudante, \citeonline{Rabelo_et_al2017} reiteram que essas plataformas suportam a interação entre alunos e o ambiente educacional, gerando assim valores expressivos de dados, estes quais quando gerenciados e analisados podem recomendar ampliações sobre os usuários e sua dinâmica de interação com o sistema.
+
+\citeonline{Falci_et_al_2018} descrevem que o relacionamento entre professores e alunos nestas plataformas dá-se pela troca de materiais, discussão em fóruns e chats, todavia, estes meios por muitas vezes não são suficientes o bastante para que o discente possa extrair o máximo de conhecimento dos assuntos trabalhados.
+
+A Mineração de Dados Educacionais (MDE) são a aplicação das técnicas de Mineração de Dados em dados oriundos de ambientes educacionais \cite{Romero_Ventura_2013}. \citeonline{Fernandes2017} reforça que o uso destas técnicas são soluções promissoras para a compreensão dos dados extraídos de AVA's. 
+
+O conhecimento extraído do círculo educacional pode ser melhor utilizado a partir de análise consciente do ambiente educacional, \citeonline[p. 13]{Endsley2012} descrevem o entendimento dos sinais presentes em um ambiente de Consciência Situacional (CS). Estar ciente da situação deve ser um componente natural da organização cognitiva humana, e os benefícios que resultam de um melhor entendimento da situação podem ser percebidos desde a pré-história \cite{Roy_Breton_Rousseau_2007}.
+
+\citeonline{Martins2018} propõe um modelo baseado em CS e MDE para o apoio ao ensino em Ambientes Virtuais de Aprendizagem, seu modelo usa aspectos da CS para otimizar a ação das técnicas de MDE sobre o conjunto de dados e posteriormente auxiliar o usuário na tomada de decisão via regras decisórias. Tomando base esta pesquisa, o foco deste trabalho concentra-se no estudo e expansão do modelo no uso de linguagens lógicas para a construção de novas regras decisórias e modelagens mentais assim como na criação de um protótipo de software para aplicabilidade do modelo.
 
 
+\section{Objetivos}
 
-\section{Considerações finais}
+\section{Motivação e Caracterização do Problema de Pesquisa}
 
-"Sed ut \citeonline{Ahmad_Shamsuddin_2010} perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?""Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+\section{Justificativa}
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+\section{Desenvolvimento Teórico}
+
+\section{Procedimentos Metodológicos}
+
+\section{Possíveis Contribuições}
+
 
 
 % ----------------------------------------------------------
