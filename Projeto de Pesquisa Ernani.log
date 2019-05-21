@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.17)  20 MAY 2019 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.17)  21 MAY 2019 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,7 +1116,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
- [2]
+ [2] [3]
 (./Projeto de Pesquisa Ernani.bbl (./Projeto de Pesquisa Ernani.brf)
 \tf@brf=\write4
 \openout4 = `"Projeto de Pesquisa Ernani.brf"'.
@@ -1127,50 +1127,50 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[3] (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
-) [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+(Font)              <6> on input line 41.
+ [4]) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
 
 (./Projeto de Pesquisa Ernani.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `"Projeto de Pesquisa Ernani".brf' has not ch
 anged.
-(rerunfilecheck)             Checksum: 92370BCF5EAC14C81DD378C696DE1A00;592.
+(rerunfilecheck)             Checksum: E9B1556B56DF8843B63BD5A0AE769050;832.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 13046 strings out of 492982
- 192849 string characters out of 6134896
- 351720 words of memory out of 5000000
- 16341 multiletter control sequences out of 15000+600000
- 31851 words of font info for 104 fonts, out of 8000000 for 9000
+ 13077 strings out of 492982
+ 193299 string characters out of 6134896
+ 352061 words of memory out of 5000000
+ 16357 multiletter control sequences out of 15000+600000
+ 32466 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,43p,1664b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,43p,1664b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Projeto de Pesquisa Ernani.pdf" (5 pages, 85817 bytes).
+Output written on "Projeto de Pesquisa Ernani.pdf" (6 pages, 89794 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  19537 words of extra memory for PDF output out of 20736 (max. 10000000)
 

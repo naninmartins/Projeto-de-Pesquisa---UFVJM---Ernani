@@ -23,45 +23,45 @@ Warning--campo note vazio em Fernandes2017
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 10 entries,
             6714 wiz_defined-function locations,
-            1248 strings with 11091 characters,
-and the built_in function-call counts, 8891 in all, are:
-= -- 1004
-> -- 229
-< -- 133
-+ -- 258
-- -- 69
-* -- 579
-:= -- 1203
-add.period$ -- 33
-call.type$ -- 8
-change.case$ -- 80
-chr.to.int$ -- 14
-cite$ -- 8
-duplicate$ -- 631
-empty$ -- 460
-format.name$ -- 332
-if$ -- 1936
+            1263 strings with 11687 characters,
+and the built_in function-call counts, 11438 in all, are:
+= -- 1286
+> -- 285
+< -- 189
++ -- 334
+- -- 86
+* -- 746
+:= -- 1531
+add.period$ -- 44
+call.type$ -- 10
+change.case$ -- 100
+chr.to.int$ -- 16
+cite$ -- 10
+duplicate$ -- 861
+empty$ -- 574
+format.name$ -- 416
+if$ -- 2465
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 132
-newline$ -- 42
-num.names$ -- 35
-pop$ -- 180
+missing$ -- 165
+newline$ -- 53
+num.names$ -- 45
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 40
 quote$ -- 0
-skip$ -- 737
+skip$ -- 977
 stack$ -- 1
-substring$ -- 330
-swap$ -- 245
-text.length$ -- 6
+substring$ -- 425
+swap$ -- 332
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 5
 warning$ -- 1
-while$ -- 50
+while$ -- 64
 width$ -- 0
-write$ -- 120
+write$ -- 154
 (There was 1 warning)

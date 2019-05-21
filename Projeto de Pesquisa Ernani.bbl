@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Berti 2017]{Berti2017}
+\abntrefinfo{Berti}{BERTI}{2017}
+{BERTI, C.~B.
+\emph{{MODELO PREDITIVO DE SITUA{\c{C}}{\~{O}}ES COMO APOIO {\`{A}}
+  CONSCI{\^{E}}NCIA SITUACIONAL E AO PROCESSO DECIS{\'{O}}RIO EM SISTEMAS DE
+  RESPOSTA {\`{A}} EMERG{\^{E}}NCIA}}.
+150~p. Tese (Doutorado) --- UNIVERSIDADE FEDERAL DE S{\~{A}}O CARLOS, 2017.}
+
 \bibitem[Endsley e Jones 2012]{Endsley2012}
 \abntrefinfo{Endsley e Jones}{ENDSLEY; JONES}{2012}
 {ENDSLEY, M.~R.; JONES, D.~G. \emph{{Designing for Situation Awareness: An
@@ -22,6 +30,14 @@ ISBN 978-1-4200-6355 (pbk).}
 {FERNANDES, W.~L. {APLICA{\c{C}}{\~{A}}O DO ALGORITMO DE
   CLASSIFICA{\c{C}}{\~{A}}O ASSOCIATIVA (CBA) EM BASES EDUCACIONAIS PARA
   PREDI{\c{C}}{\~{A}}O DE DESEMPENHO}. 2017.}
+
+\bibitem[Fernandes et al. 2016]{Leite_et_al_2016}
+\abntrefinfo{Fernandes et al.}{FERNANDES et al.}{2016}
+{FERNANDES, W.~L. et al. {Levantamento e An{\'{a}}lise de Obras Recentes
+  Baseada em Minera{\c{c}}{\~{a}}o de Rela{\c{c}}{\~{o}}es e
+  Clusteriza{\c{c}}{\~{a}}o}. In:  . [s.n.], 2016. p.~970.
+ISSN 2316-8889. Dispon{\'\i}vel em:
+  \url{http://br-ie.org/pub/index.php/wcbie/article/view/7022}.}
 
 \bibitem[Martins 2018]{Martins2018}
 \abntrefinfo{Martins}{MARTINS}{2018}
