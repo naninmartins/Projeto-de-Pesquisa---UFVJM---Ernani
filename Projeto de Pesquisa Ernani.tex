@@ -20,7 +20,8 @@
 \usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{setspace}
-
+\usepackage{graphicx}			% para o uso de imagens
+\usepackage{float}
 \usepackage{fancyhdr}
 \pagestyle{fancyplain}
 \fancyhf[]{}
@@ -49,10 +50,9 @@
 		\end{center}
 		\vspace*{3cm}
 		\begin{flushright}
-		Linha de pesquisa: EDUCAÇÃO E TECNOLOGIAS APLICADAS EM INSTITUIÇÕES
-		EDUCACIONAIS.
+		Linha de pesquisa: EDUCAÇÃO E TECNOLOGIAS APLICADAS EM INSTITUIÇÕES EDUCACIONAIS.
 		\linebreak
-		Possível Orientadora: Profa. Dra. Luciana Pereira de Assis
+		Possível Orientador: Prof. Dr. Cristiano Grijó Pitangui
 		\end{flushright}
 		\vfill
 		\imprimirlocal 
@@ -176,6 +176,51 @@ Dessa maneira, construir modelos de AVA's que utilizam tecnologias baseadas em M
 
 
 \section{Desenvolvimento Teórico}
+
+Esta seção abordará o modelo conceitual e computacional proposto por \citeonline{Martins2018} e as definições de CS, MDE e Modelos Mentais necessárias para entendimento do modelo.
+
+\subsection{Fundamentos Conceituais}
+
+\cite [p. 97]{Endsley1988} define CS como: `` a percepção dos elementos no ambiente dentro de um volume de tempo e espaço, a compreensão dos seus significados, e a projeção dos seus estados em um futuro próximo ". \citeonline{Endsley1995} separa  a CS em: \textbf{(i)} a captação sinais do ambiente, variáveis relevantes, elementos e atributos do ambiente, é o primeiro passo para obtenção da Consciência Situacional {\textit{(Percepção)}, \textbf{(ii)} o estudo dos significados presentes nas relações e interações dos sinais e variáveis do ambiente \textit{(Compreensão)} e \textbf{(iii)} predição de estados futuros, ou seja, a antecipação dos prováveis eventos que ocorrerão na sequência das próximas ações \textit{(Projeção)}.  
+
+Modelos Mentais são: `` mecanismos pelos quais humanos são capazes de gerar descrições e formas de sistemas propostos, explicações de funcionalidades e estados observados do sistema, e previsões de estados futuros " \cite[p.60]{Rouse1985} apud \cite{Endsley1995}. A mente humana capta o mundo exterior a partir de representações mentais \cite{Moreira1996}. Um indivíduo  possui dois tipos de memórias: \textbf{(i)} a \textit{memória de trabalho} é pequena e uma pessoa deve relacionar-se ativamente com as informações para não esquecê-las, \textbf{(ii)} \textit{memórias de longo-prazo} são o conhecimento consolidado em estruturas bem definidas na mente \cite{Endsley2012}.
+
+A MDE são os usos das técnicas de Mineração de Dados voltadas ao contexto educacional \cite{Leite_et_al_2016},  \cite{Romero_Ventura_2013}. \citeonline{Garcia_et_al_2011} e \citeonline{Santos2016} descrevem a MDE como uma conversão de dados brutos de Sistemas Educacionais em conhecimento útil para serem utilizadas por desenvolvedores de software, professores, pesquisadores educacionais e etc.
+
+\subsection{Modelo Conceitual}
+
+O Modelo Conceitual (figura \ref{modeloSAemAVA}) descreve o fluxo dos dados em uma representação alto-nível, os seus módulos aplicam-se diretamente na construção de representações sobre o conteúdo educacional. Os dados resultam-se do relacionamento entre Aluno X Professor X Banco de Dados Educacional, seguindo posteriormente para as etapas da CS.
+
+Na percepção existe a coleta e o pré-processamento dos dados, na compreensão aplicam-se os algoritmo da MDE para a transformação de dados crus em informação útil e na projeção estruturas pré-definidas de modelos mentais antecipam quais estados futuros podem ser atingidos com as informações recebidas dos dados processados na etapa anterior.
+
+\begin{figure}[H]	
+	\centering
+	\includegraphics[scale=0.57]{teste_modelov02}
+	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Conceitual. Fonte: \cite{Martins2018} }
+	\label{modeloSAemAVA}	
+\end{figure}
+
+O módulo seletor é uma transcrição os conhecimentos obtidos através de experiências prévias, construindo-se assim as estruturas de modelos e mapas mentais. Tais estruturas definem quais métodos devem ser utilizados diante de cada parâmetro de funcionamento no início de uma iteração, assim como qual algoritmo e construção mental aplicará-se melhor ao caso vigente no momento da iteração.
+
+\subsection{Modelo Computacional}
+
+O Modelo Computacional (figura \ref{modeloSAemAVAcomp}) é a representação lógico-computacional do Modelo Conceitual, estruturando os métodos e dados em uma arquitetura de processamento em máquina. A representação a seguir, compõe-se essencialmente de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional.
+
+O Ambiente Educacional assemelha-se muito com o do modelo conceitual abrigando o universo educacional, onde docentes e discentes são agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas e avaliações.
+
+O módulo Consciência Situacional é onde trabalha-se diretamente com os dados para extração de conhecimento e projeção dos estados futuros, ele processar os dados conforme os métodos e técnicas definidos pelo módulo Modelo Mental.
+
+O presente trabalho foca-se na expansão do módulo Modelo Mental, procurando assim novas formas de representação computacional do conhecimento. O módulo proposto por \citeonline{Martins2018} usa regras decisórias e árvores de decisão para estruturação do conhecimento. \citeonline{Garcia_et_al_2011} desenvolve um modelo de seleção, construção e validação de regras designadas a educação.
+
+\citeonline{Kokar2009} formalizam os principais conceitos da Consciência Situacional por meio de ontologias, definindo linguagens que sejam comumente suportadas por homens e computadores o autor utiliza-se de Linguagens de Ontologias Web.
+ 
+\begin{figure}[H]	
+	\centering
+	\includegraphics[scale=0.4]{modelo_persp_comp}
+	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Computacional. Fonte: \cite{Martins2018} }
+	\label{modeloSAemAVAcomp}	
+\end{figure}
+
 
 \section{Procedimentos Metodológicos}
 

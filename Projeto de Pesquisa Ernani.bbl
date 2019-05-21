@@ -13,6 +13,21 @@
   RESPOSTA {\`{A}} EMERG{\^{E}}NCIA}}.
 150~p. Tese (Doutorado) --- UNIVERSIDADE FEDERAL DE S{\~{A}}O CARLOS, 2017.}
 
+\bibitem[Endsley 1988]{Endsley1988}
+\abntrefinfo{Endsley}{ENDSLEY}{1988}
+{ENDSLEY, M.~R. {PROCEEDINGS OF THE HUMAN FACTORS SOCIETY-32nd ANNUAL
+  MEETING1988}. In:  \emph{PROCEEDINGS OF THE HUMAN FACTORS SOCIETY}.
+  Hawthorne, CA: [s.n.], 1988. p. 97--101.}
+
+\bibitem[Endsley 1995]{Endsley1995}
+\abntrefinfo{Endsley}{ENDSLEY}{1995}
+{ENDSLEY, M.~R. {Toward a Theory of Situation Awareness in Dynamic Systems}.
+\emph{Human Factors: The Journal of the Human Factors and Ergonomics Society},
+  v.~37, n.~1, p. 32--64, 1995.
+ISSN 0018-7208.
+Dispon{\'\i}vel em:
+  \url{http://journals.sagepub.com/doi/10.1518/001872095779049543}.}
+
 \bibitem[Endsley e Jones 2012]{Endsley2012}
 \abntrefinfo{Endsley e Jones}{ENDSLEY; JONES}{2012}
 {ENDSLEY, M.~R.; JONES, D.~G. \emph{{Designing for Situation Awareness: An
@@ -39,6 +54,23 @@ ISBN 978-1-4200-6355 (pbk).}
 ISSN 2316-8889. Dispon{\'\i}vel em:
   \url{http://br-ie.org/pub/index.php/wcbie/article/view/7022}.}
 
+\bibitem[Garc{\'{i}}a et al. 2011]{Garcia_et_al_2011}
+\abntrefinfo{Garc{\'{i}}a et al.}{GARC{\'{I}}A et al.}{2011}
+{GARC{\'{I}}A, E. et al. {A collaborative educational association rule mining
+  tool}.
+\emph{Internet and Higher Education}, Elsevier Inc., v.~14, n.~2, p. 77--88,
+  2011.
+ISSN 10967516.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.iheduc.2010.07.006}.}
+
+\bibitem[Kokar, Matheus e Baclawski 2009]{Kokar2009}
+\abntrefinfo{Kokar, Matheus e Baclawski}{KOKAR; MATHEUS; BACLAWSKI}{2009}
+{KOKAR, M.~M.; MATHEUS, C.~J.; BACLAWSKI, K. {Ontology-based situation
+  awareness}.
+\emph{Information Fusion}, Elsevier B.V., v.~10, n.~1, p. 83--98, 2009.
+ISSN 15662535.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.inffus.2007.01.004}.}
+
 \bibitem[Martins 2018]{Martins2018}
 \abntrefinfo{Martins}{MARTINS}{2018}
 {MARTINS, E. \emph{{Modelo de Apoio ao Ensino em Ambientes Virtuais de
@@ -46,6 +78,14 @@ ISSN 2316-8889. Dispon{\'\i}vel em:
   [s.n.], 2018. 64~p.
 Dispon{\'\i}vel em:
   \url{https://github.com/naninmartins/TCC-Modelo-de-AVA-com-CS-e-MDE-LATEX}.}
+
+\bibitem[Moreira 1996]{Moreira1996}
+\abntrefinfo{Moreira}{MOREIRA}{1996}
+{MOREIRA, M.~A. {MODELOS MENTAIS}.
+\emph{Investiga{\c{c}}{\~{o}}es em Ensino de Ci{\^{e}}ncias}, v.~1, n.~3, p.
+  193--232, 1996.
+Dispon{\'\i}vel em:
+  \url{http://www.lume.ufrgs.br/bitstream/handle/10183/141162/000292664.pdf?sequence=1}.}
 
 \bibitem[Rabelo et al. 2017]{Rabelo_et_al2017}
 \abntrefinfo{Rabelo et al.}{RABELO et al.}{2017}
@@ -63,10 +103,22 @@ ISSN 2316-6533. Dispon{\'\i}vel em:
   v.~3, n.~1, p. 12--27, 2013.
 ISSN 19424787.}
 
+\bibitem[{Rouse, W. B., and Morris} 1985]{Rouse1985}
+\abntrefinfo{{Rouse, W. B., and Morris}}{{Rouse, W. B., and Morris}}{1985}
+{{Rouse, W. B., and Morris}, N.~M. {On looking into the black box: Prospects
+  and limits in the search for mental mod- els (OTIC AD-AI59080)}.
+\emph{Georgia Institute of Technology, Center for Man-Machine Systems
+  Research}, Atlanta, GA, 1985.}
+
 \bibitem[Roy, Breton e Rousseau 2007]{Roy_Breton_Rousseau_2007}
 \abntrefinfo{Roy, Breton e Rousseau}{ROY; BRETON; ROUSSEAU}{2007}
 {ROY, J.; BRETON, R.; ROUSSEAU, R. \emph{{Concepts, Models, and Tools for
   Information Fusion}}. [S.l.]: Artech House , INC, 2007. 155~p.
 ISBN 978-1-59693-081-0.}
+
+\bibitem[Santos 2016]{Santos2016}
+\abntrefinfo{Santos}{SANTOS}{2016}
+{SANTOS, R. M.~M. dos. {Tecnicas de Aprendizagem de Maquina Utilizadas na
+  Previs{\~{a}}o de Desempenho Academico}. 2016.}
 
 \end{thebibliography}
