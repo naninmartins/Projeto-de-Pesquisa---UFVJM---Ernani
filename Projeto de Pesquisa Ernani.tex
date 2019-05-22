@@ -110,7 +110,7 @@
 \end{center}
 
 Consciência Situacional (CS) é amplamente utilizada na correta compreensão do ambiente e da situação, sendo considerada principal precursora do processo de Tomada de Decisão, portanto, considerando seu poder de compreensão do universo, a CS tem o potencial de ser aplicada em Ambientes Virtuais de Aprendizagem (AVA’s).
-O Ambiente Educacional compõe-se de um espaço extremamente dinâmico, por tanto muitas vezes as inúmeras situações presentes em um estado podem dificultar o processo de tomada de decisão. Atualmente é notório o crescimento de pesquisas que baseiam-se no uso de Mineração de Dados Educacionais (MDE) afim de extrair conhecimento dos dados de AVA's, entretanto somente a MDE por vezes não é suficiente para lidar com a variedade de dados e eventos gerados da interação de cada usuário com o Ambiente Educacional. \citeonline{Martins2018} desenvolve um Modelo baseado em CS e Mineração de Dados Educacionais (MDE) de suporte a aprendizagem em AVA's, o modelo propõe a expansão da MDE através da CS utilizando-se de modelos mentais, indicando fortes benefícios ao ambiente escolar, entretanto o autor não aplica o modelo ainda no ambiente. Este projeto de pesquisa objetiva-se na expansão do modelo, o uso de linguagens lógicas para a construção de regras decisórias e modelos mentais demonstra-se viável para a aplicabilidade do problema, é necessário também a construção e teste do mesmo, assim a elaboração de um protótipo de software para aplicabilidade do modelo são objetivos deste projeto de pesquisa. Espera-se que este estudo permita a aplicabilidade do modelo de CS no âmbito educacional, procurando assim minimizar a sobrecarga de professores e tutores dentro do ambiente educacional, espera-se também observar uma nova perspectiva da MDE, visando atingir um níveis de CS em situações nas quais tais técnicas e procedimentos apresentam uma melhor performance. 
+O Ambiente Educacional compõe-se de um espaço extremamente dinâmico, por tanto muitas vezes as inúmeras situações presentes em um estado podem dificultar o processo de tomada de decisão. Atualmente é notório o crescimento de pesquisas que baseiam-se no uso de Mineração de Dados Educacionais (MDE) afim de extrair conhecimento dos dados de AVA's, entretanto somente a MDE por vezes não é suficiente para lidar com a variedade de dados e eventos gerados da interação de cada usuário com o Ambiente Educacional. \citeonline{Martins2018} desenvolve um Modelo baseado em CS e Mineração de Dados Educacionais (MDE) de suporte a aprendizagem em AVA's, o modelo propõe a expansão da MDE através da CS utilizando-se de modelos mentais, indicando fortes benefícios ao ambiente escolar, entretanto o autor não aplica o modelo ainda no ambiente. Este projeto de pesquisa objetiva-se na expansão do modelo, o uso de ontologias para a construção de regras decisórias e modelos mentais demonstra-se viável para a aplicabilidade do problema, é necessário também a construção e teste do mesmo, assim a elaboração de um protótipo de software para aplicabilidade do modelo são objetivos deste projeto de pesquisa. Espera-se que este estudo permita a aplicabilidade do modelo de CS no âmbito educacional, procurando assim minimizar a sobrecarga de professores e tutores dentro do ambiente educacional, espera-se também observar uma nova perspectiva da MDE, visando atingir um níveis de CS em situações nas quais tais técnicas e procedimentos apresentam uma melhor performance. 
 \linebreak\linebreak
 \textbf{Palavras-chave:} Consciência da Situação. Ambientes Virtuais de Aprendizagem. Mineração de Dados Educacionais. 
 \linebreak\linebreak
@@ -130,20 +130,20 @@ A Mineração de Dados Educacionais (MDE) são a aplicação das técnicas de Mi
 
 O conhecimento extraído do círculo educacional pode ser melhor utilizado a partir de análise consciente do ambiente educacional, \citeonline[p. 13]{Endsley2012} descrevem o entendimento dos sinais presentes em um ambiente de Consciência Situacional (CS). Estar ciente da situação deve ser um componente natural da organização cognitiva humana, e os benefícios que resultam de um melhor entendimento da situação podem ser percebidos desde a pré-história \cite{Roy_Breton_Rousseau_2007}.
 
-\citeonline{Martins2018} propõe um modelo baseado em CS e MDE para o apoio ao ensino em Ambientes Virtuais de Aprendizagem, seu modelo usa aspectos da CS para otimizar a ação das técnicas de MDE sobre o conjunto de dados e posteriormente auxiliar o usuário na tomada de decisão via regras decisórias. Tomando base esta pesquisa, o foco deste trabalho concentra-se no estudo e expansão do modelo no uso de linguagens lógicas e ontologias para a construção de novas regras decisórias e modelagens mentais assim como na criação de um protótipo de software para aplicabilidade do modelo.
+\citeonline{Martins2018} propõe um modelo baseado em CS e MDE para o apoio ao ensino em Ambientes Virtuais de Aprendizagem, seu modelo usa aspectos da CS para otimizar a ação das técnicas de MDE sobre o conjunto de dados e posteriormente auxiliar o usuário na tomada de decisão via regras decisórias. Tomando base esta pesquisa, o foco deste trabalho concentra-se no estudo e expansão do modelo no uso de ontologias para a construção de novas regras decisórias e modelagens mentais assim como na criação de um protótipo de software para aplicabilidade do modelo.
 
 
 \section{Objetivos}
 
 \subsection{Objetivo Geral}
 
-Esta pesquisa possui como objetivo geral a aplicação da CS em AVA's, investigar o uso de linguagens lógicas  e ontologias no modelo proposto por \citeonline{Martins2018}, validar e construir um software baseado no mesmo para teste e aplicação em mundo real.
+Esta pesquisa possui como objetivo geral a aplicação da CS em AVA's, investigar o uso de ontologias no modelo proposto por \citeonline{Martins2018}, validar e construir um software baseado no mesmo para teste e aplicação em mundo real.
 
 \subsection{Objetivos Específicos}
 
 \begin{itemize}
 	\item Construção do software baseado no modelo para aplicação em dados reais;
-	\item Aplicar diferentes abordagens na construção do módulo seletor do modelo;
+	\item Aplicar o conceito de ontologia do módulo seletor do modelo;
 	\item Avaliar os resultados da aplicação do modelo identificando como a CS pode entregar uma nova perspectiva para o usuário no momento da tomada de decisão.  
 \end{itemize}
 
@@ -208,18 +208,24 @@ O Modelo Computacional (figura \ref{modeloSAemAVAcomp}) é a representação ló
 
 O Ambiente Educacional assemelha-se muito com o do modelo conceitual abrigando o universo educacional, onde docentes e discentes são agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas e avaliações.
 
-O módulo Consciência Situacional é onde trabalha-se diretamente com os dados para extração de conhecimento e projeção dos estados futuros, ele processar os dados conforme os métodos e técnicas definidos pelo módulo Modelo Mental.
+O módulo Consciência Situacional é onde trabalha-se diretamente com os dados para extração de conhecimento e projeção dos estados futuros, ele processa os dados conforme os métodos e técnicas definidos pelo módulo Modelo Mental.
 
-O presente trabalho foca-se na expansão do módulo Modelo Mental, procurando assim novas formas de representação computacional do conhecimento. O módulo proposto por \citeonline{Martins2018} usa regras decisórias e árvores de decisão para estruturação do conhecimento. \citeonline{Garcia_et_al_2011} desenvolve um modelo de seleção, construção e validação de regras designadas a educação.
-
-\citeonline{Kokar2009} formalizam os principais conceitos da Consciência Situacional por meio de ontologias, definindo linguagens que sejam comumente suportadas por homens e computadores o autor utiliza-se de Linguagens de Ontologias Web.
- 
 \begin{figure}[H]	
 	\centering
 	\includegraphics[scale=0.4]{modelo_persp_comp}
 	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Computacional. Fonte: \cite{Martins2018} }
 	\label{modeloSAemAVAcomp}	
 \end{figure}
+
+O presente trabalho foca-se na expansão do módulo Modelo Mental, procurando assim novas formas de representação computacional do conhecimento. O módulo proposto por \citeonline{Martins2018} usa regras decisórias e árvores de decisão para estruturação do conhecimento.
+
+\citeonline{Kokar2009} formalizam os principais conceitos da Consciência Situacional por meio de ontologias, definindo linguagens que sejam comumente suportadas por homens e computadores o autor utiliza-se de Linguagens de Ontologias Web. 
+
+\citeonline{Kokar2009} descrevem ainda a captação de linguagens formais e a sua representação por meio da Teoria Ontológica da Situação providenciando assim uma semântica que recria fatos do mundo real nos termos ontológicos para que possam ser inferidos usando um motor de inferência. 
+
+\citeonline{Garcia_et_al_2011} desenvolvem um modelo de seleção, construção e validação de regras designadas a educação. Sua pesquisa objetiva-se na construção de uma ferramente de EMD baseada em regras de associação que seja de fácil visualização e intuitiva a educadores, e agentes do ambiente educacional.
+ 
+As pesquisas de \citeonline{Kokar2009} inspiram a expansão do modelo proposto por \citeonline{Martins2018} na criação de ontologias para o desenvolvimento de regras de inferência, e por sua vez \citeonline{Garcia_et_al_2011} influenciam e exemplificam a criação de um software com visualização sucinta e clara para os agentes do ambiente educacional.
 
 
 \section{Procedimentos Metodológicos}
