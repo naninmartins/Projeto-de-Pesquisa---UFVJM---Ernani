@@ -54,6 +54,11 @@ ISBN 978-1-4200-6355 (pbk).}
 ISSN 2316-8889. Dispon{\'\i}vel em:
   \url{http://br-ie.org/pub/index.php/wcbie/article/view/7022}.}
 
+\bibitem[Foundation 2019]{aboutPython}
+\abntrefinfo{Foundation}{FOUNDATION}{2019}
+{FOUNDATION, P.~S. \emph{{Application for Python | Python.org}}. 2019.
+Dispon{\'\i}vel em: \url{https://www.python.org/about/apps/}.}
+
 \bibitem[Garc{\'{i}}a et al. 2011]{Garcia_et_al_2011}
 \abntrefinfo{Garc{\'{i}}a et al.}{GARC{\'{I}}A et al.}{2011}
 {GARC{\'{I}}A, E. et al. {A collaborative educational association rule mining
@@ -96,6 +101,12 @@ Dispon{\'\i}vel em:
 ISSN 2316-6533. Dispon{\'\i}vel em:
   \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7684}.}
 
+\bibitem[Restfulapi.net 2019]{restFulAPI}
+\abntrefinfo{Restfulapi.net}{RESTFULAPI.NET}{2019}
+{RESTFULAPI.NET. \emph{{What is REST – Learn to create timeless RESTful
+  APIs}}. 2019.
+Dispon{\'\i}vel em: \url{https://restfulapi.net/}.}
+
 \bibitem[Romero e Ventura 2013]{Romero_Ventura_2013}
 \abntrefinfo{Romero e Ventura}{ROMERO; VENTURA}{2013}
 {ROMERO, C.; VENTURA, S. {Data mining in education}.
@@ -120,5 +131,10 @@ ISBN 978-1-59693-081-0.}
 \abntrefinfo{Santos}{SANTOS}{2016}
 {SANTOS, R. M.~M. dos. {Tecnicas de Aprendizagem de Maquina Utilizadas na
   Previs{\~{a}}o de Desempenho Academico}. 2016.}
+
+\bibitem[Vuejs.org 2019]{aboutVue}
+\abntrefinfo{Vuejs.org}{VUEJS.ORG}{2019}
+{VUEJS.ORG. \emph{{Introduction {\_} Vue.js}}. 2019.
+Dispon{\'\i}vel em: \url{https://vuejs.org/v2/guide/}.}
 
 \end{thebibliography}
